@@ -7,7 +7,7 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: 1,
-  workers: 10,
+  workers: 5,
   reporter: 'html',
   use: {
     trace: 'retain-on-failure',
